@@ -1,0 +1,464 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, how can i help you?",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "Which website for admission process information?",
+        "Where to refer for admission process details?",
+        "Admission process website"
+      ],
+      "responses": [
+        "The Government of Maharashtra has established a State Common Entrance Test Cell (CET CELL) under Admission Regulating Authority (ARA) for the conduction of the admission process. Website: https://cetcell.mahacet.org/"
+      ]
+    },
+    {
+      "tag": "late_registration",
+      "patterns": [
+        "What if I register after the last date of registration?",
+        "Late registration consequences",
+        "Registration after the deadline"
+      ],
+      "responses": [
+        "If you register after the last date, document verification is carried out by the scrutiny center. Refer to the detailed schedule and guidelines published by the State CET Cell for further information."
+      ]
+    },
+    {
+      "tag": "ARC_after_CAP_round1",
+      "patterns": [
+        "When do I go to the ARC after CAP round 1?",
+        "ARC visit after CAP round 1",
+        "After CAP round 1, where to go?"
+      ],
+      "responses": [
+        "Last year, there was no need to go to ARC as candidates could pay seat confirmation fees through online mode only."
+      ]
+    },
+    {
+      "tag": "after_CAP_round1_allotment",
+      "patterns": [
+        "What after CAP round 1 allotment?",
+        "Steps after CAP round 1 allotment",
+        "Process post CAP round 1"
+      ],
+      "responses": [
+        "After CAP round 1 allotment and paying seat acceptance fees through online mode, remaining vacant seats shall be displayed."
+      ]
+    },
+    {
+      "tag": "CAP_round2_reporting",
+      "patterns": [
+        "What to keep in mind while accepting & reporting after CAP round II?",
+        "Things to consider after CAP round 2 reporting",
+        "CAP round 2 acceptance guidelines"
+      ],
+      "responses": [
+        "All eligible candidates participated in Round II and allotted the seat first time shall self-verify the seat allotment. Candidates who have been allotted the seat first time in Round II shall pay seat acceptance fee through their login by online mode."
+      ]
+    },
+    {
+      "tag": "college_intake",
+      "patterns": [
+        "What is the intake of this college?",
+        "College seat capacity",
+        "Number of seats in each branch"
+      ],
+      "responses": [
+        "The college offers the following undergraduate courses with respective intakes:\n1. Computer Engineering - 120 seats\n2. Electrical Engineering - 60 seats\n3. Electronics and Telecommunications - 120 seats\n4. Information Technology - 60 seats\n5. Mechanical Engineering - 120 seats\n6. Artificial Intelligence and Data Science - 60 seats"
+      ]
+    },
+    {
+      "tag": "common_admission_form",
+      "patterns": [
+        "Where do I fill the common admission form?",
+        "Common admission form website",
+        "Admission form filling details"
+      ],
+      "responses": [
+        "Refer to the Website: https://cetcell.mahacet.org/. You will be directed to the Engineering Admission process webpage."
+      ]
+    },
+    {
+      "tag": "CAP_rounds_start",
+      "patterns": [
+        "When will CAP rounds start?",
+        "CAP rounds commencement date",
+        "Start date for CAP rounds"
+      ],
+      "responses": [
+        "Refer to the notification published by the State CET Cell for Engineering Admissions. It is generally published after the conduction of MHT-CET examination."
+      ]
+    },
+    {
+      "tag": "college_start_date",
+      "patterns": [
+        "When will the college start?",
+        "College commencement date",
+        "Start date of the academic year"
+      ],
+      "responses": [
+        "The college will start as per the date mentioned in the Admission notification published by the State CET Cell. Details will also be available at the time of admission."
+      ]
+    },
+    {
+      "tag": "category_certificate_submission",
+      "patterns": [
+        "If the category student cannot produce a caste validity certificate at the time of admission, how much time do they get for submission?",
+        "Category student without caste validity certificate submission time",
+        "Time limit for submitting caste validity certificate"
+      ],
+      "responses": [
+        "If permitted by the State CET Cell, SC, ST, VJ/DT- NT(A), NT(B), NT(C), NT(D), OBC, SBC, and EWS Candidates who submit the receipt of Caste/Tribe Validity Certificate during the E-document verification and confirmation period should scan and submit the certificate later. Non-submission can lead to cancellation of the allotted seat."
+      ]
+    },
+    {
+      "tag": "PCM_compulsory",
+      "patterns": [
+        "Is PCM in 12th compulsory for admission to First Year engineering?",
+        "Eligibility criteria regarding PCM in 12th",
+        "Requirement of PCM for engineering admission"
+      ],
+      "responses": [
+        "Yes, Minimum PCM percentage - 45% (minimum 134 marks out of 300) for open and 40% (minimum 119 marks out of 300) for reserved category. Eligibility can be checked using the State CET Cell website."
+      ]
+    },
+    {
+      "tag": "merit_tie_resolution",
+      "patterns": [
+        "What if there is a tie for merit?",
+        "Merit tie-breaking criteria",
+        "Resolution for tie in merit"
+      ],
+      "responses": [
+        "The merit list shall be resolved based on the following order of preference:\n(a) Higher marks in Mathematics at CET;\n(b) Higher marks in Physics at CET;\n(c) Higher percentage of marks in Board or qualifying examination for Physics, Mathematics, and Chemistry taken together;\n(d) Higher percentage of marks in the subject Mathematics at HSC;\n(e) Higher percentage of marks in the subject Physics at HSC;\n(f) Higher percentage of marks in Aggregate at HSC."
+      ]
+    },
+    {
+      "tag": "alternative_subjects",
+      "patterns": [
+        "I am an open category student with PCM less than 45%. Can I opt for engineering with some other subject?",
+        "Engineering admission with PCM less than 45%",
+        "Alternative subjects for engineering admission"
+      ],
+      "responses": [
+        "Yes, you can opt for engineering with Physics and Maths as compulsory subjects, and instead of Chemistry, other subjects can be chosen. Eligibility can be checked on the DTE website by entering your marks."
+      ]
+    },
+    {
+      "tag": "EBC_application",
+      "patterns": [
+        "I am from the OBC category but I do not have the related documents. Can I apply for EBC?",
+        "OBC category without documents applying for EBC",
+        "Eligibility for EBC without OBC documents"
+      ],
+      "responses": [
+        "If your admission is through open category by DTE, you can apply for EBC scholarship provided you have the required Income certificate and all other documents like Domicile, Aadhar card, Bank account on your name etc."
+      ]
+    },
+    {
+      "tag": "category_income_limit",
+      "patterns": [
+        "What is the income limit for OBC, NT, VJNT, etc.?",
+        "Income limit for category candidates",
+        "OBC, NT, VJNT income eligibility"
+      ],
+      "responses": [
+        "The income limit was revised on 01/01/2018 and increased up to 8 Lakhs with effect from the 2017-18 year admissions."
+      ]
+    },
+    {
+      "tag": "disability_eligibility",
+      "patterns": [
+        "What is the Eligibility Criterion for persons with disability candidates?",
+        "Eligibility for candidates with a disability",
+        "Persons with disability admission criteria"
+      ],
+      "responses": [
+        "Eligibility criteria for persons with disability candidates are specified in the admission notice published by the State CET Cell. Details can be checked on the official website."
+      ]
+    },
+    {
+      "tag": "category_change_fee",
+      "patterns": [
+        "I don't have category documents. I got an allotment of open seats. Do I have to pay full fees for the open category for all 4 years? How can I keep my category information for future benefits?",
+        "Fee payment for open category after allotment",
+        "Category change and fee implications"
+      ],
+      "responses": [
+        "Category once treated open is applicable for all 4 years. Your basic caste/category, if mentioned on the school leaving certificate, will also be mentioned on TC for future benefits."
+      ]
+    },
+    {
+      "tag": "non_maharashtrian_reserved_category",
+      "patterns": [
+        "I am a non-Maharashtrian reserved category candidate who has appeared for CET. Shall I get fee benefits applicable for my caste?",
+        "Non-Maharashtrian reserved category fee benefits",
+        "Fee benefits for non-Maharashtrian reserved category"
+      ],
+      "responses": [
+        "The fee benefits are only for Maharashtra candidates. You will be treated as an open category candidate + OMS (Other than Maharashtra state). Hence, you will have to pay the full fee. However, you are entitled to category benefits in your home state."
+      ]
+    },
+    {
+      "tag": "education_loan_disbursement",
+      "patterns": [
+        "When the education loan is sanctioned by the Bank, will I get it or will the Bank send it to the college directly?",
+        "Education loan disbursement process",
+        "Bank disbursement of education loan"
+      ],
+      "responses": [
+        "You have to take admission first by paying necessary fees and apply for a Fee Structure & Bonafide certificate from the college. The bank sanctions the loan after the Bonafide certificate is submitted and sends it to the college or student’s account as per the bank’s policy."
+      ]
+    },
+    {
+      "tag": "TFWS_scheme",
+      "patterns": [
+        "What is TFWS (Tuition Fee Waiver Scheme)? Can we opt for it?",
+        "TFWS scheme details",
+        "Opting for Tuition Fee Waiver Scheme"
+      ],
+      "responses": [
+        "TFWS (Tuition Fee Waiver Scheme) is a scheme implemented by the Govt of Maharashtra. Income certificate stating the Income Limit from all sources to be below 8 lakhs is required."
+      ]
+    },
+    {
+      "tag": "BE_vs_BTech",
+      "patterns": [
+        "What is the difference between BE & B.Tech.?",
+        "BE vs B.Tech. comparison",
+        "BE and B.Tech. distinction"
+      ],
+      "responses": [
+        "Practically nothing. BE is a bachelor of engineering & B.Tech. is a bachelor of technology. In Maharashtra, most of the universities have named the engineering course as B.E. while IITs and few Autonomous institutes like COE, Pune named it B.Tech."
+      ]
+    },
+    {
+      "tag": "CET_necessity",
+      "patterns": [
+        "Is it necessary to give CET for taking admission in the First Year at engineering colleges in Maharashtra?",
+        "CET necessity for engineering admission",
+        "Compulsory CET for engineering admission"
+      ],
+      "responses": [
+        "Yes, it is necessary to give CET (or JEE or both) for taking admission in the first year at all engineering colleges approved by the All India Council for Technical Education i.e. AICTE for the academic year 2021 - 22."
+      ]
+    },
+    {
+      "tag": "college_admission_outside_Pune",
+      "patterns": [
+        "Can a student take admission to a college in Pune from outside Pune University area?",
+        "Admission to Pune college from outside Pune University",
+        "Non-local admission in Pune college"
+      ],
+      "responses": [
+        "Yes. For getting admission to colleges affiliated to Savitribai Phule Pune University, the student has to apply under the 30% quota of CAP seats earmarked for students from other universities. For admission to autonomous colleges (Like COEP or VIT, Pune) - students from other universities can compete for 100% seats."
+      ]
+    },
+    {
+      "tag": "branch_vs_college_importance",
+      "patterns": [
+        "What is important, Branch, or College?",
+        "Branch or College priority",
+        "Importance of branch and college in admission"
+      ],
+      "responses": [
+        "If you are clear about the branch you want, then college selection becomes secondary. However, if you are undecided about the branch or willing to take any branch, it is advisable to prioritize a good college. The choice between branch and college should align with your academic and career goals."
+      ]
+    },
+    {
+      "tag": "management_quota_claim",
+      "patterns": [
+        "How to claim seats under the management quota at MMCOE?",
+        "Management quota seat claiming process",
+        "Admission under management quota at MMCOE"
+      ],
+      "responses": [
+        "You can approach our admission counseling cell on all working days for claiming seats under the management quota at MMCOE. They will provide you with the necessary information and guidance regarding the admission process under the management quota."
+      ]
+    },
+    {
+      "tag": "CET_JEE_combined_application",
+      "patterns": [
+        "Can I apply for admission through both CET and JEE?",
+        "Combined application for CET and JEE",
+        "Applying through CET and JEE"
+      ],
+      "responses": [
+        "Yes, you can apply for admission through both CET and JEE. However, separate registration and application processes are required for each entrance exam."
+      ]
+    },
+    {
+      "tag": "college_hours",
+      "patterns": [
+        "What are the working hours for college?",
+        "College timings",
+        "Hours of operation for college"
+      ],
+      "responses": [
+        "The college operates six days a week with varying hours depending on the academic schedule. Typically, classes run from morning 8 to 3 pm or 10 to 5 pm, with additional lectures scheduled if necessary."
+      ]
+    },
+    {
+      "tag": "reservation_policy",
+      "patterns": [
+        "Are all the seats open for admission, or is there reservation?",
+        "Reservation of seats",
+        "Seat allocation and reservation policy"
+      ],
+      "responses": [
+        "Yes, there is reservation according to the Government norms declared from time to time."
+      ]
+    },
+    {
+      "tag": "placement_percentage",
+      "patterns": [
+        "What is the placement percentage of the college?",
+        "College placement rate",
+        "Percentage of students placed"
+      ],
+      "responses": [
+        "Around 80% of eligible students secured placement in the previous academic year (2019-20)."
+      ]
+    },
+    {
+      "tag": "campus_recruitment_companies",
+      "patterns": [
+        "Which companies come for campus recruitment?",
+        "Recruiting companies list",
+        "Companies visiting for campus placement"
+      ],
+      "responses": [
+        "Companies like Persistent, Tech Mahindra, Zensar, Syntel, Exusia, Volkswagen, Mahindra & Mahindra, and many more MNCs conduct campus recruitment at MMCOE."
+      ]
+    },
+    {
+      "tag": "placement_training_start",
+      "patterns": [
+        "When does the training for placement start?",
+        "Placement training commencement date",
+        "Start date for placement preparation"
+      ],
+      "responses": [
+        "Placement training begins from the first year (Second Semester) to prepare students for campus recruitment."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What are the fees per year?",
+        "Annual fee structure",
+        "Tuition fee details"
+      ],
+      "responses": [
+        "Please refer to the fee structure on the college website for detailed information."
+      ]
+    },
+    {
+      "tag": "EBC_scholarship_income_limit",
+      "patterns": [
+        "What is the income limit for EBC scholarship?",
+        "EBC scholarship income eligibility",
+        "Income criterion for EBC scholarship"
+      ],
+      "responses": [
+        "The income limit for EBC scholarship is up to 8 lakhs and is available only to open category students. This facility is not applicable for institute-level admissions."
+      ]
+    },
+    {
+      "tag": "attendance_norms",
+      "patterns": [
+        "Is it possible for my ward to attend exams if they have paid fees but are unable to attend classes?",
+        "Attendance requirement for exams",
+        "Exam attendance without class attendance"
+      ],
+      "responses": [
+        "This is a full-time course with a minimum attendance requirement of 75% as per University norms. MMCOE follows a minimum attendance requirement of 90% for theory and 100% for practicals."
+      ]
+    },
+    {
+      "tag": "hostel_capacity",
+      "patterns": [
+        "How many students per room in the hostel?",
+        "Hostel room occupancy",
+        "Number of students in hostel rooms"
+      ],
+      "responses": [
+        "For boys, there are 4 students in one room in the old building, and in the new building, there are 3, 5, or 6 students per room. For girls, there are 4 students per room."
+      ]
+    },
+    {
+      "tag": "hostel_room_size",
+      "patterns": [
+        "What is the size of a hostel room?",
+        "Hostel room dimensions",
+        "Room size in the hostel"
+      ],
+      "responses": [
+        "The hostel rooms vary in size but generally have around 204 sq ft area. Each student is provided with basic furniture and amenities."
+      ]
+    },
+    {
+      "tag": "hostel_facilities",
+      "patterns": [
+        "What facilities are available in the hostel?",
+        "Hostel amenities",
+        "Facilities provided in the hostel"
+      ],
+      "responses": [
+        "The hostel provides various facilities including furniture, attached bathrooms, Wi-Fi, filtered drinking water, hot water, sports facilities, newspapers, TV, elevators, gymnasium, and parking."
+      ]
+    },
+    {
+      "tag": "hostel_fees",
+      "patterns": [
+        "What are the hostel fees per year?",
+        "Annual hostel fee",
+        "Hostel accommodation charges"
+      ],
+      "responses": [
+        "The hostel fee for the academic year 2020-21 was Rs. 82,000 per year, inclusive of mess charges."
+      ]
+    },
+    {
+      "tag": "last_year_cut_off",
+      "patterns": [
+        "What was the cut-off of last year for a particular branch?",
+        "Last year's branch-wise cut-off",
+        "Previous year's cut-off details"
+      ],
+      "responses": [
+        "For cut-offs of 2022-23, please visit MMCOE website or Admission Counseling Cell."
+      ]
+    }
+  ]
+}
